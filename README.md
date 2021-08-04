@@ -27,4 +27,4 @@ All you need is:
 5. Run your .jar file.
     >java -jar telegram-bot-demo-0.0.1-SNAPSHOT.jar
     
-Configurations! Your but is running!:sunglasses:
+Configurations! Your bot is running!:sunglasses:
