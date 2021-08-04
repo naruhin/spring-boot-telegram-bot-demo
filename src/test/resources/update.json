@@ -1,0 +1,40 @@
+{
+  "update_id": 709349251,
+  "message": {
+    "chatId": 327373282,
+    "superGroupMessage": false,
+    "channelMessage": false,
+    "groupMessage": false,
+    "command": true,
+    "reply": false,
+    "userMessage": true,
+    "message_id": 4,
+    "from": {
+      "bot": false,
+      "id": 327373282,
+      "first_name": "dmytro",
+      "is_bot": false,
+      "username": "durango_95",
+      "language_code": "ru"
+    },
+    "date": 1628076471,
+    "chat": {
+      "superGroupChat": false,
+      "groupChat": false,
+      "userChat": true,
+      "channelChat": false,
+      "id": 327373282,
+      "type": "private",
+      "first_name": "dmytro",
+      "username": "durango_95"
+    },
+    "text": "hello",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}
