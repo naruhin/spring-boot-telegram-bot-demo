@@ -1,8 +1,8 @@
-#:robot:Spring Boot Telegram BOT example
+# :robot:Spring Boot Telegram BOT example
 
 ---
 
-###Simple echo bot using TDD and Spring 
+### Simple echo bot using TDD and Spring 
 
 All you need is:
 1. Clone this repository
