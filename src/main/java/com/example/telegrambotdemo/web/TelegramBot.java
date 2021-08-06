@@ -1,5 +1,6 @@
-package com.example.telegrambotdemo.service;
+package com.example.telegrambotdemo.web;
 
+import com.example.telegrambotdemo.service.MessageService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,7 +30,12 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        SendMessage sendMessage = messageService.onUpdateReceived(update);
+        SendMessage sendMessage = null;
+        try {
+            sendMessage = messageService.onUpdateReceived(update);
+        } catch (IOException | InterruptedException e) {
+            e.printStackTrace();
+        }
         try {
             execute(sendMessage);
         } catch (TelegramApiException e) {

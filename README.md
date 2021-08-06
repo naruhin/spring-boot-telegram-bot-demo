@@ -16,8 +16,8 @@ All you need is:
 3. Now you have token and botname. Create file application.properties and put them into.
 
     ```properties
-    bot.username = youtBotName;
-    bot.token = yourBotToken;
+    bot.username = youtBotName
+    bot.token = yourBotToken
     ```
    
 4. Package your application
