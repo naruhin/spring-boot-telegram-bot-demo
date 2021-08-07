@@ -3,6 +3,7 @@
 ---
 
 ### Simple echo bot using TDD and Spring 
+### Make sure Project SDK is JDK 11! 
 
 All you need is:
 1. Clone this repository
